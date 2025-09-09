@@ -1,0 +1,5 @@
+/* Tailwind CSS'in temel stillerini buraya ekliyoruz. */
+/* Bu direktifler Tailwind'in tüm yardımcı sınıflarını (utility classes) projeye dahil eder. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
