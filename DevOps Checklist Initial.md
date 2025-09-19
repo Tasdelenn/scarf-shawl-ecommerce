@@ -1,6 +1,6 @@
 DevOps Checklist & Initial Setup (Phase 1)
 1. GitHub Repository Setup
-[ ] Create a new repository on GitHub.
+[x] Create a new repository on GitHub.
 
 Name the repository (e.g., scarf-shawl-ecommerce).
 
@@ -8,15 +8,15 @@ Initialize with a README.md file.
 
 Choose a .gitignore template for Node.js and Rust.
 
-[ ] Clone the repository to your local machine.
+[x] Clone the repository to your local machine.
 
 Use the command: git clone <repository_url>
 
-[ ] Copy initial project files.
+[x] Copy initial project files.
 
 Move the README.md, project_brief_and_development_rules.md, and todos.md files into the cloned local repository folder.
 
-[ ] Commit and push the initial files.
+[x] Commit and push the initial files.
 
 git add .
 
@@ -24,18 +24,18 @@ git commit -m "Initial project setup and documentation"
 
 git push origin main
 
-2. Frontend Project Setup (React)
-[ ] Create the React app.
+22. Frontend Project Setup (React)
+[x] Create the React app.
 
-Use a modern template: npm create vite@latest scarf-web -- --template react-ts
+[x] Install Tailwind CSS.
 
-cd scarf-web
+[ ] Configure Tailwind CSS.
 
-[ ] Install Tailwind CSS.
+Crucial Step: Update the tailwind.config.js file with the specified content to configure the file paths.
 
-Follow the official Tailwind CSS + Vite guide to integrate it into your project.
+[ ] Add Tailwind directives to CSS.
 
-Run the necessary npm commands (npm install -D tailwindcss postcss autoprefixer, npx tailwindcss init -p).
+Crucial Step: Open scarf-web/src/index.css and replace all existing content with the three @tailwind directives below. This is the entry point for all Tailwind styles.
 
 [ ] Test the setup.
 
